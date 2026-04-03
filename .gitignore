@@ -1,0 +1,41 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Java artifacts
+*.class
+*.jar
+*.war
+*.ear
+out/
+build/
+target/
+
+# Logs and runtime files
+*.log
+*.pid
+*.tmp
+*.temp
+
+# Package archives
+*.zip
+*.tar
+*.gz
+*.rar
