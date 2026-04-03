@@ -7,6 +7,9 @@ Desktop.ini
 .vscode/
 .idea/
 *.iml
+**/.vscode/
+**/.idea/
+**/*.iml
 
 # Python artifacts
 __pycache__/
