@@ -1,94 +1,86 @@
-# Web Technologies Lab Programs
+<div align="center">
 
-A consolidated collection of college Web Technologies lab experiments and supporting practice files.
+# Logistics & E-Commerce Management System
 
-This repository includes:
-- HTML and CSS programs
-- JavaScript practice programs
-- XML, DTD, XSD examples
-- XML parsing programs in Java (SAX/DOM)
-- Week-wise and topic-wise lab organization
+_Web Technologies lab programs, practice files, and XML/Java exercises organized by folder._
 
-## Repository Overview
+![status](https://img.shields.io/badge/status-active-brightgreen)
+![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)
+![language](https://img.shields.io/badge/languages-HTML%2C%20CSS%2C%20JavaScript%2C%20XML%2C%20Java-orange)
 
-Top-level structure (major folders):
+</div>
 
-- `Assignment/` - Assignment-oriented web pages and subfolders (including branch/department pages)
-- `Attendance/` - Attendance mini-project with HTML, CSS, JavaScript, and XML data
-- `classroom/` - XML program files used in classroom exercises
-- `gcet_programs/` - Large set of WT practice files (HTML, JS, XML, XSD, DTD, layouts, forms, etc.)
-- `javaScript/` - JavaScript-only practical programs
-- `lab_programs/` - Lab program set with grouped tasks (`p1` to `p10` and nested parts)
-- `week1/`, `week4/`, `week5/`, `week6/`, `week7/`, `week8/`, `week9/` - Week-wise lab work
+---
 
-Also includes a few standalone files in root, such as:
-- `demo.html`
-- `DropDOwnSelection.html`
-- `FormValidation.html`
-- `demo.py` (utility/demo script)
+## Overview
 
-## Key Learning Areas Covered
+This repository is a consolidated Web Technologies lab workspace. It contains HTML/CSS pages, JavaScript practice files, XML/DTD/XSD examples, and Java XML parsing programs, all grouped by topic and week.
 
-- Basic HTML document structure and formatting tags
-- Lists, tables, images, links, frames, and navigation
-- CSS: inline, internal, and external stylesheets
-- JavaScript basics, DOM interaction, and form validation
-- XML creation and validation with DTD/XSD
-- Parsing XML using Java parsers (week5)
+### What this repo covers
 
-## How to Run the Programs
+- Basic HTML page structure, formatting, links, lists, tables, and forms
+- CSS styling using inline, internal, and external stylesheets
+- JavaScript programs for DOM work and form validation
+- XML data, DTD, and XSD validation examples
+- Java SAX/DOM parser programs
+- Assignment-style and week-wise lab folders
 
-### 1. HTML/CSS/JavaScript files
+---
 
-Open any `.html` file directly in a browser:
-1. Navigate to the target folder.
-2. Double-click the `.html` file (or right-click -> Open With Browser).
+## Folder Structure
 
-For best workflow in VS Code:
-- Install Live Server extension.
-- Right-click an HTML file -> **Open with Live Server**.
+| Folder / File | Purpose |
+| --- | --- |
+| `Assignment/` | Assignment-oriented pages, branch pages, and navigation layouts |
+| `Attendance/` | Small attendance project with HTML, CSS, JS, and XML data |
+| `classroom/` | Classroom XML practice programs |
+| `gcet_programs/` | Large set of WT practice files, templates, forms, layouts, XML, XSD, and DTD examples |
+| `javaScript/` | JavaScript-only lab programs |
+| `lab_programs/` | Main lab exercises grouped as `p1`, `p2`, `p3`, `p4`, `p5`, `p6`, `p7`, `p8`, `p9`, and `p10` |
+| `week1_2_3/` | Early-week HTML practice files |
+| `week4/` | XML, DTD, and XSD validation examples |
+| `week5/` | Java XML parser programs (`DParser`, `SAXParserDemo`, `UserHandler`) |
+| `week6/` to `week12/` | Later-week practice folders and supporting exercises |
+| root files | Standalone demos such as `demo.html`, `FormValidation.html`, `DropDOwnSelection.html`, and `demo.py` |
 
-### 2. XML/XSD/DTD files
+---
 
-You can:
-- Open XML files in browser/editor for structure preview.
-- Use online/offline XML validators to validate against XSD/DTD.
+## Languages & Tools
 
-Examples:
-- `gcet_programs/bookstore.xml` with `gcet_programs/bookstore.xsd`
-- `week4/bookstoreXSD.xml` with `week4/bookstore.xsd`
+- HTML5
+- CSS3
+- JavaScript
+- XML / DTD / XSD
+- Java (XML parsing)
 
-### 3. Java XML Parser programs (week5)
+---
 
-Folder: `week5/`
-- `DParser.java`
-- `SAXParserDemo.java`
-- `UserHandler.java`
-- `input.xml`
+## How to Use
 
-Compile and run (from `week5` directory):
+### HTML / CSS / JavaScript
 
-```bash
+Open any `.html` file directly in a browser, or use Live Server in VS Code for a faster preview workflow.
+
+### XML / DTD / XSD
+
+Open the XML files in an editor or browser, then validate them against the matching DTD or XSD files.
+
+### Java parser programs in `week5/`
+
+Compile and run from the `week5` folder:
+
+```powershell
 javac *.java
 java DParser
 java SAXParserDemo
 ```
 
-Note: Ensure Java (JDK) is installed and available in your system `PATH`.
+Make sure JDK is installed and available in your system `PATH`.
 
-## Suggested Study Order
+---
 
-1. `week1/` and root basic HTML files
-2. `lab_programs/p1` to `p10`
-3. `javaScript/` and JS files under `gcet_programs/`
-4. XML + DTD/XSD files (`gcet_programs/`, `week4/`)
-5. Java XML parsing (`week5/`)
+## Notes
 
-## Maintenance Notes
-
-- File naming style is legacy and course-oriented; retained as-is for lab traceability.
-- Some folders contain similarly named programs with minor variations for practice.
-
-## License
-
-This repository is intended for educational/lab use.
+- Folder names are kept as they appear in the lab workspace for easy submission and traceability.
+- Several folders contain similar programs with small variations for practice.
+- This repository is intended for educational use.
