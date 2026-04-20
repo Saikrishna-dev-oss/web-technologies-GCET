@@ -1,12 +1,29 @@
-<div align="center">
+<div style="text-align: center;">
 
-# Logistics & E-Commerce Management System
+# Web Technologies Lab Repository
 
-_Web Technologies lab programs, practice files, and XML/Java exercises organized by folder._
+_Web Technologies lab programs and practice work organized by topic and week._
 
 ![status](https://img.shields.io/badge/status-active-brightgreen)
 ![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)
-![language](https://img.shields.io/badge/languages-HTML%2C%20CSS%2C%20JavaScript%2C%20XML%2C%20Java-orange)
+![type](https://img.shields.io/badge/type-Academic%20Lab-orange)
+![focus](https://img.shields.io/badge/focus-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20XML%20%7C%20Java-red)
+
+![forks](https://img.shields.io/badge/Forks-0-lightgrey?logo=github)
+![stars](https://img.shields.io/badge/Stars-1-lightgrey?logo=github)
+![watchers](https://img.shields.io/badge/Watchers-0-lightgrey?logo=github)
+
+---
+
+## Languages & Tools
+
+![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Client%20Logic-F7DF1E?logo=javascript&logoColor=black)
+![XML](https://img.shields.io/badge/XML-Data%20Format-005FAD)
+![DTD/XSD](https://img.shields.io/badge/DTD%20%2F%20XSD-Validation-7B1FA2)
+![Java](https://img.shields.io/badge/Java-XML%20Parsing-ED8B00?logo=openjdk&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-Week11%2F12-777BB4?logo=php&logoColor=white)
 
 </div>
 
@@ -14,73 +31,77 @@ _Web Technologies lab programs, practice files, and XML/Java exercises organized
 
 ## Overview
 
-This repository is a consolidated Web Technologies lab workspace. It contains HTML/CSS pages, JavaScript practice files, XML/DTD/XSD examples, and Java XML parsing programs, all grouped by topic and week.
-
-### What this repo covers
-
-- Basic HTML page structure, formatting, links, lists, tables, and forms
-- CSS styling using inline, internal, and external stylesheets
-- JavaScript programs for DOM work and form validation
-- XML data, DTD, and XSD validation examples
-- Java SAX/DOM parser programs
-- Assignment-style and week-wise lab folders
+This repository contains a consolidated Web Technologies lab workspace. It includes HTML/CSS pages, JavaScript practice, XML/DTD/XSD files, Java XML parsing demos, and week-wise exercises used for coursework and submissions.
 
 ---
 
-## Folder Structure
+## Project Structure
 
-| Folder / File | Purpose |
+```text
+wt_lab/
+|- Attendance/
+|- gcet_programs/
+|- javaScript/
+|- lab_programs_basic/
+|- week1_2_3/
+|- week4/
+|- week5/
+|- week6/
+|- week7/
+|- week8/
+|- week9/
+|- week10/
+|- week11/
+|- week12/
+|- krishna.jpg
+`- README.md
+```
+
+### Folder Details
+
+| Folder | Purpose |
 | --- | --- |
-| `Assignment/` | Assignment-oriented pages, branch pages, and navigation layouts |
-| `Attendance/` | Small attendance project with HTML, CSS, JS, and XML data |
-| `classroom/` | Classroom XML practice programs |
-| `gcet_programs/` | Large set of WT practice files, templates, forms, layouts, XML, XSD, and DTD examples |
-| `javaScript/` | JavaScript-only lab programs |
-| `lab_programs/` | Main lab exercises grouped as `p1`, `p2`, `p3`, `p4`, `p5`, `p6`, `p7`, `p8`, `p9`, and `p10` |
-| `week1_2_3/` | Early-week HTML practice files |
-| `week4/` | XML, DTD, and XSD validation examples |
-| `week5/` | Java XML parser programs (`DParser`, `SAXParserDemo`, `UserHandler`) |
-| `week6/` to `week12/` | Later-week practice folders and supporting exercises |
-| root files | Standalone demos such as `demo.html`, `FormValidation.html`, `DropDOwnSelection.html`, and `demo.py` |
+| `Attendance/` | Mini attendance project with `index.html`, `style.css`, `script.js`, and `data.xml` |
+| `gcet_programs/` | Large practice set: HTML layouts, JavaScript tasks, XML, DTD, and XSD examples |
+| `javaScript/` | Focused JavaScript practical files (`js_p1.html` to `js_p7.html`) |
+| `lab_programs_basic/` | Core lab programs (`p1` to `p10`) including multi-page tasks and stylesheet exercises |
+| `week1_2_3/` | Introductory HTML programs for early lab weeks |
+| `week4/` | XML validation examples with `sample.dtd` and `bookstore.xsd` |
+| `week5/` | Java parser programs: `DParser.java`, `SAXParserDemo.java`, `UserHandler.java` |
+| `week6/` to `week9/` | Java web practice split into `A/` and `B/` modules with source/web folders |
+| `week10/` | `A/` login flow files and `B/` calculator files (`calc.php`, `calc.html`) |
+| `week11/` | PHP validation exercise (`validation.php`) |
+| `week12/` | PHP login validation (`LoginValidation.php`) |
 
 ---
 
-## Languages & Tools
+## Quick Run Guide
 
-- HTML5
-- CSS3
-- JavaScript
-- XML / DTD / XSD
-- Java (XML parsing)
+### HTML, CSS, JavaScript
 
----
+Open any `.html` file directly in a browser, or use Live Server for quick preview.
 
-## How to Use
+### XML, DTD, XSD
 
-### HTML / CSS / JavaScript
+Open XML files in an editor/browser and validate using the corresponding `.dtd` or `.xsd` files.
 
-Open any `.html` file directly in a browser, or use Live Server in VS Code for a faster preview workflow.
-
-### XML / DTD / XSD
-
-Open the XML files in an editor or browser, then validate them against the matching DTD or XSD files.
-
-### Java parser programs in `week5/`
-
-Compile and run from the `week5` folder:
+### Java XML Programs (`week5/`)
 
 ```powershell
+cd week5
 javac *.java
 java DParser
 java SAXParserDemo
 ```
 
-Make sure JDK is installed and available in your system `PATH`.
+### PHP Exercises (`week11/`, `week12/`)
+
+Run using a local PHP-enabled server (for example XAMPP Apache) and open the corresponding `.php` file in browser.
 
 ---
 
 ## Notes
 
-- Folder names are kept as they appear in the lab workspace for easy submission and traceability.
-- Several folders contain similar programs with small variations for practice.
-- This repository is intended for educational use.
+- This repository is intended for educational and lab use.
+- Folder names are preserved for course traceability.
+- Several files are variations of the same task for practice.
